@@ -1,0 +1,240 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeazoN Blog | Giriş Yap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  background: #e3e3e3;
+}
+
+/* Login  */
+
+.authentication > div {
+  max-width: 320px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.nav-tabs .nav-item {
+  width: 50%;
+}
+.nav-tabs {
+  overflow: hidden;
+}
+
+.nav-tabs .nav-link {
+  /*   outline: none; */
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+.nav-tabs .nav-link.active {
+  background: #200;
+  color: #fff;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link.active {
+  border-color: transparent;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.input-box i {
+  background-color: #200;
+  padding: 0.6em;
+  color: white;
+}
+
+.input-box input {
+  font-size: 13px;
+  flex: 1;
+  padding: 0.6em;
+  margin: 0;
+  outline: none;
+  background-color: #eee;
+  border: none;
+  /*   margin-bottom: 20px; */
+}
+
+.input-box input:focus {
+  outline: none;
+}
+
+.nav-tabs .nav-item .nav-link {
+  text-align: center;
+}
+
+@media (min-width: 668px) {
+}
+
+.remember .custom-checkbox {
+  margin-right: 6px;
+  display: inline-block;
+  position: relative;
+}
+
+.custom-checkbox #check,
+.custom-checkbox #reg-check {
+  position: relative;
+  z-index: 100000;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.tick:before {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "\f0c8";
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  color: #38bbab;
+}
+
+#check:checked + .tick:before,
+#reg-check:checked + .tick:before {
+  content: "\f14a";
+  font-family: "Font Awesome 5 Free";
+  animation: tick 0.2s ease-in;
+}
+
+.remember label,
+.forget span {
+  font-size: 14px;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+@keyframes tick {
+  0% {
+    transform: scale(0);
+  }
+  90% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.discord button a {
+  text-decoration: none;
+  color: white;
+}
+.discord button {
+  margin-left: 47px;
+  margin-top: 15px;
+}
+.forget span a{
+  color: black;
+}
+    </style>
+</head>
+<body>
+  <section class="authentication d-flex justify-content-center">
+    <div class="bg-white">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="home" aria-selected="true">
+        Kaydol</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Giriş Yap</a>
+        </li>
+  
+      </ul>
+      <div class="tab-content px-4 py-5" id="myTabContent">
+        <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="home-tab">
+  <!--         <form> -->
+            <div>
+            <div class="input-box">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Kullanıcı Adı">
+            </div>
+  
+            <div class="input-box">
+              <i class="fa fa-envelope"></i>
+              <input type="email" placeholder="Email">
+            </div>
+  
+            <div class="input-box">
+              <i class="fa fa-lock"></i>
+              <input type="password" placeholder="Şifre">
+            </div>
+  
+  
+            <input type="submit" value="Kaydol" class="btn btn btn-outline-secondary btn-block mt-3">
+  
+          </div>
+          <header class="discord">
+            <button type="button" class="btn btn-primary"><a href="#"><i class="fab fa-discord"></i> Discord ile giriş yap!</a></button>
+          </header>
+        
+  <!--         </form> -->
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div>
+            <div class="input-box">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Kullanıcı adı">
+            </div>
+  
+            <div class="input-box">
+              <i class="fa fa-lock"></i>
+              <input type="password" placeholder="Şifre">
+            </div>
+  
+            <div class="authentication-info d-flex justify-content-between ">
+  
+              
+             
+  
+              <div class="forget">
+                <span><a href="#">Şifreni mi unuttun?</a></span>
+              </div>
+  
+            </div>
+  
+            <input type="submit" value="Giriş yap" class="btn btn btn-outline-secondary btn-block mt-3">
+            <header class="discord">
+              <button type="button" class="btn btn-primary"><a href="#"><i class="fab fa-discord"></i> Discord ile giriş yap!</a></button>
+            </header>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

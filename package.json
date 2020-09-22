@@ -1,0 +1,16 @@
+{
+  "name": "keazonblog",
+  "version": "1.0.0",
+  "description": "Blog sitem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uğur KeazoN",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "tailwindcss": "^1.8.10"
+  }
+}
